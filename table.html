@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table,th,td{
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            th,td{
+                padding: 30px;
+            }
+            th{
+                text-align: left;
+            }
+             table#t01{
+                 width: 100%;
+                 background-color: aquamarine;
+                
+            }
+            table#t02 tr:nth-child(even){
+                background-color: forestgreen;}
+            table#t02{
+                width: 100%;
+            }
+            table#t02  th{
+                color: red;
+                
+            }
+    
+        </style>
+    </head>
+    <body>
+        <table id="t01">
+            <caption>information</caption>
+            <tr>
+                <th>first name</th>
+                <td>moni</td>
+            </tr>
+                <tr>
+            <th rowspan="3">last name</th>
+                    <td>sahoo</td>
+                    </tr>
+            <tr>
+                    <td>behera</td>
+                        </tr>
+            <tr>
+                    <td>sahoo</td>
+            </tr>
+            
+        </table>
+        <br>
+        <table id="t02">
+            <caption>information</caption>
+            <tr>
+                <th>first name</th>
+                <td>moni</td>
+            </tr>
+                <tr>
+            <th rowspan="3">last name</th>
+                    <td>sahoo</td>
+                    </tr>
+            <tr>
+                    <td>behera</td>
+                        </tr>
+            <tr>
+                    <td>sahoo</td>
+            </tr>
+            
+        </table>
+    </body>
+</html>
